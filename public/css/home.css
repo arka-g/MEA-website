@@ -1,0 +1,98 @@
+.banner {
+    background-color: #373737;
+}
+.banner .container {
+    background-color: #FF6600;
+    min-height: 200px;
+    padding: 40px 30px 30px 40px;
+    text-align: center;
+}
+.banner .container h1{
+    font-weight: 500;
+    font-size: 60px;
+    color:#fafafa;
+}
+.banner .container p {
+    font-weight: 500;
+    font-size: 22px;
+    padding-left: 5px;
+    color:#fafafa;
+}
+.middle {
+    background-color: #9E9E9E;
+}
+
+#sponsors .container{
+    background-color: #FFF;
+}
+
+#sponsors {
+    background-color: #CCC;
+}
+.middle .container {
+    background-color: #E5E1D1;
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+
+.bottom {
+    background-color: #474747;
+    text-align: center;
+}
+.bottom .container {
+    background-color: #373737;
+    min-height: 150px;
+}
+.bottom .container h2{
+    color:#FFF;
+}
+
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.middle .container {
+    font-weight:300;
+}
+
+.middle .container h2{
+    text-align: center;
+    font-weight: 500;
+}
+
+.middle .container h1{
+    text-align: center;
+    font-weight: 500;
+}
+.middle .container h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.middle .container p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    color: #787878;
+}
+
+#icons{
+    color:#FFF;
+}
+
+#space{
+    margin-right: 10px;
+    margin-left:10px;
+}
+.middle .fa-6{
+    font-size: 20em;
+}
+
+.middle .col-md-12{
+    text-align: center;
+}
+/*.middle .container .md-9-content .md-6-content{
+    float:right;
+}*/
