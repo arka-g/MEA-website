@@ -135,6 +135,8 @@ nav a:hover {
     padding-left: 0px;
 }
 
+
+
 /* Basic Media Queries */
 @media (max-width: 530px) {
   #nav-banner h2 {
