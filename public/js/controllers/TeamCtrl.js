@@ -1,7 +1,7 @@
 angular.module('TeamCtrl', []).controller('TeamController', function($scope) {
 
 	$scope.welcome='Hey There! Nice to meet you.';
-	$scope.subHead = 'Wanna grab a beer?!';
+	$scope.subHead = 'Lets talk business!';
 
 	$scope.join='Exec Team 2014';
 
@@ -26,5 +26,9 @@ angular.module('TeamCtrl', []).controller('TeamController', function($scope) {
     $scope.info9 = 'VP Finance';
 
     $scope.connect = 'Connect With Us'
+
+  	$scope.twitter='https://twitter.com/McMasterEntreps';
+    $scope.facebook='https://www.facebook.com/MacEntrepreneurship';
+    $scope.email='mcmasterentrepreneurship@gmail.com';
 
 });

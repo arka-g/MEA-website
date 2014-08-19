@@ -18,5 +18,11 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
     $scope.sponsor3='Imagination Plus';
 
     $scope.connect = 'Connect With Us'
+
+    $scope.twitter='https://twitter.com/McMasterEntreps';
+    $scope.facebook='https://www.facebook.com/MacEntrepreneurship';
+    $scope.email='mcmasterentrepreneurship@gmail.com';
+
+
 });
 
