@@ -17,7 +17,6 @@ function toggleNav() {
         // Do things on Nav Open
         $('#site-wrapper').addClass('show-nav');
     }
-    //$('#site-wrapper').toggleClass('show-nav');
 }
 
 //escape with 'esc'

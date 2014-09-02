@@ -10,7 +10,15 @@ angular.module('AboutCtrl', []).controller('AboutController', function($scope) {
 	$scope.sub1c='Information';
 	$scope.sub1a='Funding';
 
-	$scope.list2a='Learn about Hamilton Area Startup Community'
+	$scope.list2a='Learn about and get involved in the Hamilton Area Startup Community';
+	$scope.list2b='Attend events and conferences about entrepreneurship (ex: NSpire) for free!';
+	$scope.list2c='Attend Startup Weekends for free and develop your own ideas';
+	$scope.list2d='Open up more options after graduation';
+
+	$scope.list3a='Get updates on new events';
+	$scope.list3b='Become an active member';
+
+	$scope.list4a='Get the word out there about your organization by working with us!';
 
     $scope.twitter='https://twitter.com/McMasterEntreps';
     $scope.facebook='https://www.facebook.com/MacEntrepreneurship';

@@ -21,6 +21,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		.when('/team', {
 			templateUrl: 'views/team.html',
 			controller: 'TeamController'	
+		})
+
+		.when('/getinvolved', {
+			templateUrl: 'views/getinvolved.html',
+			controller: 'GetInvolvedController'	
 		});
 
 	$locationProvider.html5Mode(true);
