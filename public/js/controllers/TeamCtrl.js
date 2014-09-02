@@ -15,20 +15,20 @@ angular.module('TeamCtrl', []).controller('TeamController', function($scope) {
 	$scope.head8='Graham Spry';
 	$scope.head9='Andrew Ramadori';
 
-    $scope.info1 = 'President';
-    $scope.info2 = 'Co-Vice President';
-    $scope.info3 = 'Co-Vice President';
-   	$scope.info4 = 'VP Marketing';
-  	$scope.info5 = 'VP Technical';
-    $scope.info6 = 'VP Events';
-   	$scope.info7 = 'VP Strategic Relations';
-    $scope.info8 = 'VP Social Media';
-    $scope.info9 = 'VP Finance';
+  $scope.info1 = 'President';
+  $scope.info2 = 'Co-Vice President';
+  $scope.info3 = 'Co-Vice President';
+ 	$scope.info4 = 'VP Marketing';
+	$scope.info5 = 'VP Technical';
+  $scope.info6 = 'VP Events';
+ 	$scope.info7 = 'VP Strategic Relations';
+  $scope.info8 = 'VP Social Media';
+  $scope.info9 = 'VP Finance';
 
-    $scope.connect = 'Connect With Us'
+  $scope.connect = 'Connect With Us'
 
-  	$scope.twitter='https://twitter.com/McMasterEntreps';
-    $scope.facebook='https://www.facebook.com/MacEntrepreneurship';
-    $scope.email='mcmasterentrepreneurship@gmail.com';
+	$scope.twitter='https://twitter.com/McMasterEntreps';
+  $scope.facebook='https://www.facebook.com/MacEntrepreneurship';
+  $scope.email='mcmasterentrepreneurship@gmail.com';
 
 });
