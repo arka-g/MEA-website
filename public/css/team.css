@@ -1,15 +1,15 @@
-/*#pics img{
+#pics img{
 	width: 240px;
 	height: 240px;
 	border: 8px solid #fff;
-}*/
-
-#team-images-dave{
+}
+/*
+#team-images{
 	border: 8px solid #fff;
 	width: 240px;
 	height: 240px;
 	text-align: center;
-	background-image: url("/../assets/Dave.jpg");
+	background-image: url("/../assets/amanda.jpg");
 	background-repeat: no-repeat;
 	display:block;
-}
+}*/
