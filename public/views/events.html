@@ -44,33 +44,40 @@
 			<div class="col-lg-12 heading">
 				<h1>{{past}}</h1>
 			</div>
-			<div class = "row">
-				<div class = "col-md-12">
-					<div class = "col-md-4">
-						<div class = "col-md-12">
-							<a href = "/about"><i class="fa fa-lightbulb-o fa-6"></i></a>
-							<a href = "/about"><h3>{{head1}}</h3></a>
-							<p>{{info1}}</p>
-						</div> 
-					</div>
-					<div class = "col-md-4">
-						<div class = "col-md-12">
-							<!--link to events-->
-							<a href = "#"><i class="fa fa-globe fa-6"></i></a>
-							<a href = "#"><h3>{{head2}}</h3></a>
-							<p>{{info2}}</p>
-						</div> 
-					</div>
-					<div class = "col-md-4">
-						<div class = "col-md-12">
-							<!--link to events again?-->
-							<a href = "#"><i class="fa fa-code fa-6"></i></a>
-							<a href = "#"><h3>{{head3}}</h3></a>
-							<p>{{info3}}</p>
-						</div> 
-					</div>
-				</div>
-			</div>
+			<div class="row" id="ourWork"> 
+		<div id="homeSlider" class="carousel slide" data-ride="carousel">
+			<h2 class="heading">{{past}}</h2>
+			  
+			  <ol class="carousel-indicators">
+			    <li data-target="#homeSlider" data-slide-to="0" class="active"></li>
+			    <li data-target="#homeSlider" data-slide-to="1" class=""></li>
+			    <li data-target="#homeSlider" data-slide-to="2" class=""></li>
+			    <li data-target="#homeSlider" data-slide-to="3" class=""></li>
+			  </ol>
+			
+			  <div class="container">
+				  <div class="carousel-inner">
+				  	<div class="item active"><a href="work/candys-cupcakes"><img src="img/slides/candys-slide.jpg" alt="Candy's Cupcakes website displayed on a desktop, tablet and mobile device." title="Candy's Cupcakes website displayed on a desktop, tablet and mobile device." width="830" height="500"></a></div>
+				  	<div class="item"><a href="work/tube-to-chicken"><img src="img/slides/tube-to-chicken-slide.jpg" alt="Tube to Chicken website displayed on a desktop, tablet and mobile device." title="Tube to Chicken website displayed on a desktop, tablet and mobile device." width="830" height="500"></a></div>
+				  	<div class="item"><a href="work/kcc-ltd"><img src="img/slides/kcc-slide.jpg" alt="KCC Ltd website displayed on a desktop, tablet and mobile device." title="KCC Ltd website displayed on a desktop, tablet and mobile device." width="830" height="500"></a></div>
+				    <div class="item"><a href="work/flowdirect"><img src="img/slides/flowdirect-slide.jpg" alt="Flowdirect UK Ltd website displayed on a desktop, tablet and mobile device." title="Flowdirect UK Ltd website displayed on a desktop, tablet and mobile device." width="830" height="500"></a></div>
+				    <div class="item"><a href="work/nicks-restaurant"><img src="img/slides/nicks-slide.jpg" alt="Nick's Restaurant website displayed on a desktop, tablet and mobile device." title="Nick's Restaurant website displayed on a desktop, tablet and mobile device." width="830" height="500"></a></div>
+				    
+				  </div>
+			  </div>
+			  	
+			  <!-- Controls -->
+			  <a class="left carousel-control-left hidden-xs" href="#homeSlider" data-slide="prev"></a>
+			  <a class="right carousel-control-right hidden-xs" href="#homeSlider" data-slide="next"></a>
+			  <!-- Controls -->
+			  <a class="left carousel-control visible-xs" href="#homeSlider" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control visible-xs" href="#homeSlider" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+		</div>
+	</div>
 		</div>
 	</div>
 
