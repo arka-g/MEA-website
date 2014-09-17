@@ -1,0 +1,15 @@
+.carousel .carousel-control{
+	opacity:0.8 !important;
+	color: #FF530D !important;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  opacity: 0.5 !important;
+}
+
+.carousel-control.left {
+	background-image:none !important;
+}
+.carousel-control.right {
+	background-image:none !important;
+}
