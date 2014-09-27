@@ -103,9 +103,9 @@ nav a:hover {
 
 #nav-banner img{
 	display:inline-block;
-	margin-top: 0;	
-	height: 70px;
-	width: 85px;
+	margin-top: 4px;	
+	height: 60px;
+	width: 75px;
 	opacity: 0.95;
 	float:right;
 }

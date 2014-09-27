@@ -13,3 +13,16 @@
 .carousel-control.right {
 	background-image:none !important;
 }
+
+.color{
+	color:#FF530D;
+}
+
+.carousel-inner { 
+	text-align: center; 
+}
+
+.carousel .item > img { 
+	display: inline-block; 
+	border: solid 5px;
+}

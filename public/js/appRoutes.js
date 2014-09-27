@@ -23,10 +23,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'TeamController'	
 		})
 
-		.when('/getinvolved', {
-			templateUrl: 'views/getinvolved.html',
-			controller: 'GetInvolvedController'	
-		});
+		// .when('/getinvolved', {
+		// 	templateUrl: 'views/getinvolved.html',
+		// 	controller: 'GetInvolvedController'	
+		// });
 
 	$locationProvider.html5Mode(true);
 

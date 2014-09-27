@@ -9,59 +9,7 @@
     </p>
   </div>
 </div>
-
 <div class="middle" id = "second">
-  <div class="container">
-    <div class="col-lg-12 heading">
-      <h1>
-        {{past}}
-      </h1>
-    </div>
-    <div class="row">
-      
-      <div class = "col-md-12">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
-            </li>
-            <li data-target="#carousel-example-generic" data-slide-to="1">
-            </li>
-            <li data-target="#carousel-example-generic" data-slide-to="2">
-            </li>
-          </ol>
-          
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="http://placehold.it/1200x600" alt="Event picture">
-              <div class="carousel-caption">
-                Mei Lin Picture 1
-              </div>
-            </div>
-            <div class="item">
-              <img src="http://placehold.it/1200x600" alt="Event picture">
-              <div class="carousel-caption">
-                Mei Lin Picture 2
-              </div>
-            </div>
-          </div>
-          
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left">
-            </span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right">
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="middle" id = "third">
   <div class="container">
     <div class="col-lg-12 heading">
       <h1>
@@ -73,18 +21,18 @@
         <div class = "col-md-4">
           <div class = "col-md-12">
             
-              <i class="fa fa-lightbulb-o fa-6">
+              <i class="fa fa-users fa-6">
               </i>
             
             
-              <h3>
+              <h3 class="color">
                 {{Eventhead1}}
               </h3>
            
             <p>
               {{infoEvent1}}<br>
               {{subinfoEvent1}}<br>
-             	{{timeEvent1}}
+              {{timeEvent1}}
 
             </p>
           </div>
@@ -98,14 +46,15 @@
               </i>
             
             
-              <h3>
+              <h3 class="color">
                 {{Eventhead2}}
               </h3>
            
             <p>
+              <!--{{subEventhead2}}<br>-->
               {{infoEvent2}}<br>
               {{subinfoEvent2}}<br>
-             	{{timeEvent2}}
+              {{timeEvent2}}
 
             </p>
           </div>
@@ -117,11 +66,11 @@
             <!--link to events again?-->
              <div class = "col-md-12">
             
-              <i class="fa fa-lightbulb-o fa-6">
+              <i class="fa fa-wordpress fa-6">
               </i>
             
             
-              <h3>
+              <h3 class="color">
                 {{Eventhead3}}
               </h3>
            
@@ -137,6 +86,80 @@
     </div>
   </div>
 </div>
+<div class="middle" id = "third">
+  <div class="container">
+    <div class="col-lg-12 heading">
+      <h1>
+        {{past}}
+      </h1>
+    </div>
+    <div class="row">
+      
+      <div class = "col-md-12">
+        <div id="events" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#events" data-slide-to="0" class="active">
+            </li>
+            <li data-target="#events" data-slide-to="1">
+            </li>
+            <li data-target="#events" data-slide-to="2">
+            </li>
+            <li data-target="#events" data-slide-to="3">
+            </li>
+            <li data-target="#events" data-slide-to="4">
+            </li>
+          </ol>
+          
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img class = "slide_pic" src="../assets/photos/competition-1.jpg" alt="Event picture">
+              <div class="carousel-caption">
+                Case Competition
+              </div>
+            </div>
+            <div class="item">
+              <img class = "slide_pic" src="../assets/photos/competition-2.jpg" alt="Event picture">
+              <div class="carousel-caption">
+                Case Competition
+              </div>
+            </div>
+            <div class="item">
+              <img class = "slide_pic" src="../assets/photos/competition-3.jpg" alt="Event picture">
+              <div class="carousel-caption">
+                Case Competition
+              </div>
+            </div>
+            <div class="item">
+              <img class = "slide_pic" src="../assets/photos/workshops.jpg" alt="Event picture">
+              <div class="carousel-caption">
+                Workshops
+              </div>
+            </div>
+            <div class="item">
+              <img class = "slide_pic" src="../assets/photos/innovation-night.jpg" alt="Event picture">
+              <div class="carousel-caption">
+                Innovation Night
+              </div>
+            </div>
+          </div>
+          
+          <!-- Controls -->
+          <a class="left carousel-control" href="#events" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left">
+            </span>
+          </a>
+          <a class="right carousel-control" href="#events" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right">
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Site footer -->
 <div class="row bottom">
   <div class="container">
