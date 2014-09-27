@@ -33,7 +33,7 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
     $scope.list3a='Get updates on new events';
     $scope.list3b='Become an active member';
     $scope.list3c='Meet other members of our club and make new friends';
-    $scope.list3d='General Members who are involved heavily with the club are encouraged to apple for executive positions when available!';
+    $scope.list3d='General Members who are involved heavily with the club are encouraged to apply for executive positions when available!';
 
 
 
