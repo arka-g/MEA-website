@@ -22,4 +22,8 @@ angular.module('EventsCtrl', []).controller('EventsController', function($scope)
     $scope.subinfoEvent3 = 'Where: TBD';
     $scope.timeEvent3 = 'Time: TBD';
 
+    $scope.twitter='https://twitter.com/McMasterEntreps';
+  	$scope.facebook='https://www.facebook.com/MacEntrepreneurship';
+  	$scope.email='mcmasterentrepreneurship@gmail.com';
+
 });

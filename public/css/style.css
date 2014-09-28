@@ -135,7 +135,9 @@ nav a:hover {
     padding-left: 0px;
 }
 
-
+.copyright{
+	color: #fff;
+}
 
 /* Basic Media Queries */
 @media (max-width: 530px) {
