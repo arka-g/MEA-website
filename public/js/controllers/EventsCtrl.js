@@ -5,22 +5,22 @@ angular.module('EventsCtrl', []).controller('EventsController', function($scope)
 	$scope.upcoming='Upcoming Events';
 	$scope.past='Past Events';
 
-	$scope.Eventhead1='First General Meeting';
-	$scope.Eventhead2='10 Steps to Starting a Business';
+	$scope.Eventhead1='Idea Validation Workshop';
+	$scope.Eventhead2='WordPress-ing Like a Boss';
 	//$scope.subEventhead2 = 'Presented by: SBEC (Small Business Enterprise Center)';
-	$scope.Eventhead3='WordPress-ing Like a Boss';
+	$scope.Eventhead3='Off The Record';
 
-	$scope.infoEvent1 = 'When: September 30, 2014';
-	$scope.subinfoEvent1 = 'Where: ETB 533';
-	$scope.timeEvent1 = 'Time: 5:30pm - 7:00pm';
+	$scope.infoEvent1 = 'When: November 11, 2014';
+	$scope.subinfoEvent1 = 'Where: TBD';
+	$scope.timeEvent1 = 'Time: TBD';
 
-    $scope.infoEvent2 = 'When: October 16, 2014';
+    $scope.infoEvent2 = 'When: Mid November';
     $scope.subinfoEvent2 = 'Where: ETB 535';
-    $scope.timeEvent2 = 'Time: 5:30pm - 7:00pm';
+    $scope.timeEvent2 = 'Time: TBD';
 
-    $scope.infoEvent3 = 'When: Mid October';
-    $scope.subinfoEvent3 = 'Where: TBD';
-    $scope.timeEvent3 = 'Time: TBD';
+    $scope.infoEvent3 = 'When: Weekly';
+    $scope.subinfoEvent3 = 'Where: Starbucks/ Coffee Shop';
+    $scope.timeEvent3 = 'Time: TBD. Sign up by clicking the icon above';
 
     $scope.twitter='https://twitter.com/McMasterEntreps';
   	$scope.facebook='https://www.facebook.com/MacEntrepreneurship';

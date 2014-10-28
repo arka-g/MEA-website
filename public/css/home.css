@@ -93,6 +93,18 @@
 .middle .col-md-12{
     text-align: center;
 }
+
+.sponsors-logo{
+    width: 240px;
+    height: 240px;
+    border: 4px solid #373737;
+}
+
+.partners-logo{
+    width: 240px;
+    height: 240px;
+    border: 4px solid #fff;
+}
 /*.middle .container .md-9-content .md-6-content{
     float:right;
 }*/

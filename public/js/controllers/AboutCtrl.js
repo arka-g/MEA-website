@@ -1,6 +1,6 @@
 angular.module('AboutCtrl', []).controller('AboutController', function($scope) {
 
-	$scope.tagline="The best Association at McMaster University with the most rad members";
+	$scope.tagline="The best association at McMaster University with the most rad members";
 
 	$scope.list1a='We aim to become the centralized hub of entrepreneurship and startup activities at McMaster';
 	$scope.list1b='Provide the tools needed to succeed in entrepreneurial ventures:';
