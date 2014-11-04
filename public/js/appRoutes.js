@@ -23,6 +23,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'TeamController'	
 		})
 
+		.when('/offtherecord',{
+			templateUrl: 'views/offtherecord.html',
+			controller: 'OTRController'
+		})
+
 		// .when('/getinvolved', {
 		// 	templateUrl: 'views/getinvolved.html',
 		// 	controller: 'GetInvolvedController'	
