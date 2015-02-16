@@ -9,6 +9,7 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 	$scope.head2='Grow Your Network';
 	$scope.head3='Learn';
     //temporary for executive positions
+    $scope.Pres0='2 positions available';
     $scope.Pres1='Preside over all meetings of the club and shall be an ex-officio member of all committees within the club';
     $scope.Pres2='Call all executive meetings and general meetings';
     $scope.Pres3='Handle the day-to-day operations of the club';
@@ -17,7 +18,7 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
     $scope.Pres6='Keep the minutes of all official meetings and be responsible for all correspondence of the association.';
     $scope.Pres7='Build relationships with strategic partners';
     $scope.Pres8='Maintain the club’s membership list and archival documents';
-    $scope.Pres9='Manage email list, and newsletters Vice-President';
+    $scope.Pres9='Manage email list, and newsletters';
 
 
     // $scope.VP1='Perform the duties of the President in the latters absence and shall assist the President where required';
