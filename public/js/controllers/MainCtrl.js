@@ -14,17 +14,17 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
     $scope.Pres3='Handle the day-to-day operations of the club';
     $scope.Pres4='Ensure the club’s adherence to MSU policies';
     $scope.Pres5='Manage other executives and team members to hold accountable for tasks and initiatives';
-    $scope.Pres6='Co-run meetings with Vice-President';
+    $scope.Pres6='Keep the minutes of all official meetings and be responsible for all correspondence of the association.';
     $scope.Pres7='Build relationships with strategic partners';
     $scope.Pres8='Maintain the club’s membership list and archival documents';
     $scope.Pres9='Manage email list, and newsletters Vice-President';
 
 
-    $scope.VP1='Perform the duties of the President in the latters absence and shall assist the President where required';
-    $scope.VP2='Keep the minutes of all official meetings and be responsible for all correspondence of the association';
-    $scope.VP3='Perform such other duties that are from time to time assigned by the President, executive or general membership';
-    $scope.VP4='Support president and all executives and team members with their tasks; cross-collaborative and assists and fills in gaps where needed';
-    $scope.VP5='Co-run meetings with President';
+    // $scope.VP1='Perform the duties of the President in the latters absence and shall assist the President where required';
+    // $scope.VP2='Keep the minutes of all official meetings and be responsible for all correspondence of the association';
+    // $scope.VP3='Perform such other duties that are from time to time assigned by the President, executive or general membership';
+    // $scope.VP4='Support president and all executives and team members with their tasks; cross-collaborative and assists and fills in gaps where needed';
+    // $scope.VP5='Co-run meetings with President';
 
     $scope.Finance1='Keep the account books of the club, shall arrange for the custody and distribution of funds pursuant to the executive and general memberships direction';
     $scope.Finance2='Give a report to the finances of the club at each executive meeting and have the books available upon the request of any member of the club';
