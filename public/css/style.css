@@ -23,6 +23,9 @@ body{
   src: local('Exo 2 Medium'), local('Exo2-Medium'), url(http://themes.googleusercontent.com/static/fonts/exo2/v1/SJSKlaAoPzG8E6EMHXZfenYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
 }
 
+#deadline{
+	text-align: center;
+}
 a:hover{
 	color:#FF530D;
 	text-decoration: none;
